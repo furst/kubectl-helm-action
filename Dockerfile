@@ -1,4 +1,4 @@
-FROM dtzar/helm-kubectl:3.2.0
+FROM alpine/k8s:1.13.12
 
 WORKDIR /app
 
